@@ -3,6 +3,8 @@
 либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 лучше обойтись исключительно массивами. */
 
+System.Console.Clear();
+
 int NewMessage (string message)
 {
     System.Console.Write(message);
