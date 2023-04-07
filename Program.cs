@@ -40,6 +40,20 @@ string[] GenFirstArray(int size)
 
 void PrintArray(string[] array)
 {
+    System.Console.Write("Условие: ");
+    System.Console.Write("[");
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($" {array[i]} ");
+    }
+
+    System.Console.Write("]");
+}
+
+void PrintArray2(string[] array)
+{
+    System.Console.Write("Решение: ");
     System.Console.Write("[");
 
     for (int i = 0; i < array.Length; i++)
@@ -78,6 +92,6 @@ string[] firstArray = GenFirstArray(size);
 PrintArray(firstArray);
 string[] secondArray = GenSecondArray(firstArray);
 System.Console.WriteLine();
-PrintArray(secondArray);
+PrintArray2(secondArray);
 
 
